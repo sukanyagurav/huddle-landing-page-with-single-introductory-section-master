@@ -26,7 +26,7 @@ body::before{
     height:100%;
     z-index:-1;
     animation: rotate 2.2s linear;
--webkit-animation: rotate 2.2s linear;
+-webkit-animation: rotate 1s linear;
 }
 
 header{
@@ -116,7 +116,7 @@ align-items: center;
     margin-right: 1.5rem;
 }
 .social-links a{
-    /* padding:1rem 0.25rem; */
+    
     font-size: 1.5rem;
     width:45px;
     height:45px;
@@ -139,6 +139,7 @@ align-items: center;
     0%{
        transform: rotate(0deg);
       }
+      
    100%{
        transform: rotate(360deg);
       }
